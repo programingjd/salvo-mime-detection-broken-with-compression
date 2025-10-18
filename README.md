@@ -1,5 +1,9 @@
 Example for salvo [issue 1218](https://github.com/salvo-rs/salvo/issues/1218)
 
+Go to http://localhost:8080 with a browser. You can see that the content-type is not `text/html` but `text/plain`.
+
+---
+
 `curl -v "http://localhost:8080" --compressed -H "Accept-Encoding: br"`
 
 <pre>
